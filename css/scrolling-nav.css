@@ -1,60 +1,94 @@
 /*!
- * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
- * Copyright 2013-2016 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
- */
+* Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+* Copyright 2013-2016 Start Bootstrap
+* Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+*/
 
 body {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 html {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 @media(min-width:767px) {
-    .navbar {
-        padding: 20px 0;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
+  .navbar {
+    padding: 20px 0;
+    -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+    transition: background .5s ease-in-out,padding .5s ease-in-out;
+    background-color: #3f51b5;
+  }
 
-    .top-nav-collapse {
-        padding: 0;
-    }
+  .navbar #brand {
+    color: white;
+  }
+
+  .navbar #aboutus {
+    color: white;
+  }
+  .navbar #services {
+    color: white;
+  }
+  .navbar #contact {
+    color: white;
+  }
+
+  .top-nav-collapse {
+    padding: 0;
+    background-color: #b4ff7d;
+  }
+
+  .top-nav-collapse #brand {
+    color: black;
+  }
+
+  .top-nav-collapse #aboutus {
+    color: black;
+  }
+  .top-nav-collapse #services {
+    color: black;
+  }
+
+  .top-nav-collapse #contact {
+    color: black;
+  }
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
 .intro-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  /**background: #fff;*/
+  background: url('../assets/office.jpg') no-repeat;
+  background-size: 100%;
 }
 
 .about-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
 }
 
 .services-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #fff;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #fff;
 }
 
 .contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #eee;
 }
