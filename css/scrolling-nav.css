@@ -27,13 +27,13 @@ html {
     color: white;
   }
 
-  .navbar #aboutus {
+  .navbar #aboutusbt {
     color: white;
   }
-  .navbar #services {
+  .navbar #servicesbt {
     color: white;
   }
-  .navbar #contact {
+  .navbar #contactbt {
     color: white;
   }
 
@@ -46,14 +46,14 @@ html {
     color: black;
   }
 
-  .top-nav-collapse #aboutus {
+  .top-nav-collapse #aboutusbt {
     color: black;
   }
-  .top-nav-collapse #services {
+  .top-nav-collapse #servicesbt {
     color: black;
   }
 
-  .top-nav-collapse #contact {
+  .top-nav-collapse #contactbt {
     color: black;
   }
 
