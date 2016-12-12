@@ -37,6 +37,10 @@ html {
     color: white;
   }
 
+  .navbar #partnersbt {
+    color: white;
+  }
+
   .top-nav-collapse {
     padding: 0;
     background-color: #b4ff7d;
@@ -54,6 +58,10 @@ html {
   }
 
   .top-nav-collapse #contactbt {
+    color: black;
+  }
+
+  .top-nav-collapse #partnersbt {
     color: black;
   }
 
@@ -81,10 +89,11 @@ of those sections to manage the look and feel of the site. */
   background: #fff;
 }
 
+.partners-section {
+  background: #fff;
+}
+
 .contact-section {
-  height: 100%;
-  padding-top: 150px;
-  text-align: center;
   background: #eee;
 }
 
