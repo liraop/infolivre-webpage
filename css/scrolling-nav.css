@@ -64,13 +64,11 @@ html {
   .top-nav-collapse #partnersbt {
     color: black;
   }
-
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
-
 
 .section {
   height: 100%;
@@ -121,5 +119,5 @@ of those sections to manage the look and feel of the site. */
 }
 
 .logo_p3{
-  background: url('../assets/logos/comptech.jpg') no-repeat;
+  background: url('../assets/logos/eztech.jpg') no-repeat;
 }
