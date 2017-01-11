@@ -43,7 +43,7 @@ html {
 
   .top-nav-collapse {
     padding: 0;
-    background-color: #b4ff7d;
+    background-color: #ADDFAE;
   }
 
   .top-nav-collapse #brand {
@@ -63,7 +63,8 @@ html {
 
   .top-nav-collapse #partnersbt {
     color: black;
-  }
+}
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -79,20 +80,16 @@ of those sections to manage the look and feel of the site. */
 .intro-section {
 }
 
-.about-section {
-  background: #eee;
-}
-
-.services-section {
-  background: #fff;
-}
-
-.partners-section {
-  background: #fff;
+.about-section{
 }
 
 .contact-section {
-  background: #eee;
+}
+
+.services-section {
+}
+
+.partners-section {
 }
 
 .square {
@@ -101,7 +98,7 @@ of those sections to manage the look and feel of the site. */
   width: 30%;
   padding-bottom : 30%;
   margin:1.66%;
-  background-size: 100%;
+  background-position: center center;
 }
 
 /* assets */
