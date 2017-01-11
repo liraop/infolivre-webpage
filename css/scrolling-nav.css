@@ -104,12 +104,9 @@ of those sections to manage the look and feel of the site. */
 
 .square {
   position: relative;
-  background-color: black;
   width: 30%;
   padding-bottom: 30%;
-  border-color: black;
-  border-style: dotted;
-  background-position: center center;
+  margin: 1%;
 }
 
 .footer{
@@ -137,4 +134,8 @@ of those sections to manage the look and feel of the site. */
 
 .logo_p3{
   background: url('../assets/logos/eztech.jpg') no-repeat;
+}
+
+.logo{
+  background-position: center;
 }
