@@ -63,7 +63,7 @@ html {
 
   .top-nav-collapse #partnersbt {
     color: black;
-}
+  }
 
 }
 
@@ -89,6 +89,16 @@ of those sections to manage the look and feel of the site. */
 .services-section {
 }
 
+.services-div {
+  position: relative;
+  background-color: #ADDFAE;
+  width: 100%;
+  padding-bottom: 3%;
+  border-color: white;
+  border-style: dotted;
+  margin: 2%;
+}
+
 .partners-section {
 }
 
@@ -96,10 +106,20 @@ of those sections to manage the look and feel of the site. */
   position: relative;
   background-color: black;
   width: 30%;
-  padding-bottom : 30%;
-  margin:1.66%;
+  padding-bottom: 30%;
+  border-color: black;
+  border-style: dotted;
   background-position: center center;
 }
+
+.footer{
+    position: fixed;
+    height: 5%;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+}
+
 
 /* assets */
 .img_1-1 {
